@@ -1,0 +1,3 @@
+10 CLS : DEFINT A-Z: IF VDP(10) = 2 THEN HZ = 50 ELSE HZ = 60
+20 TIME = 0
+30 PRINT "Ran in "TIME / HZ "sec."
