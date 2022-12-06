@@ -1,7 +1,7 @@
 import sys
 
 filename = sys.argv[1]
-lineNumber = int(sys.argv[2]) or 5000
+lineNumber = int(sys.argv[2])
 
 data = open(filename, 'r')
 Lines = data.readlines()

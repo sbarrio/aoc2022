@@ -17,7 +17,7 @@
 116 CO$(O!) = X1$ 
 117 LT! = LEN(CO$(T!)) :L2! = LEN(X2$)
 118 'PRINT "Target " CO$(T!) " len " LT! " Append "  X2$ " len " L2!
-119 'Append Top part of stack to target stack, in reverse order
+119 'Append Top part of stack to target stack
 120 XR$ = SPACE$(LT! + L2!) : LR! = LEN(XR$)
 121 MID$(XR$, 1) = CO$(T!) 
 122 'PRINT "Append target to XR-"XR$"-LEN " LR!
